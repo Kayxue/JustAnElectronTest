@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "electron": "^18.2.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/index.js"
+  }
+}
